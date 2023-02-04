@@ -4,7 +4,7 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-import navIcon1 from "../assets/img/nav-icon1.svg";
+import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -82,9 +82,11 @@ export const Banner = () => {
                     valuable insights and potential opportunities can be
                     discussed.
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <a href="https://www.linkedin.com/in/hiza-aliza-gaizka/" target="_blank" rel="noopener noreferrer">
+                  <button>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
+                </a>
                 </div>
               )}
             </TrackVisibility>
