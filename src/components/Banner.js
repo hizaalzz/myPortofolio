@@ -82,11 +82,15 @@ export const Banner = () => {
                     valuable insights and potential opportunities can be
                     discussed.
                   </p>
-                  <a href="https://www.linkedin.com/in/hiza-aliza-gaizka/" target="_blank" rel="noopener noreferrer">
-                  <button>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
-                </a>
+                  <a
+                    href="https://www.linkedin.com/in/hiza-aliza-gaizka/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button>
+                      Let’s Connect <ArrowRightCircle size={25} />
+                    </button>
+                  </a>
                 </div>
               )}
             </TrackVisibility>
