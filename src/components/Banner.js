@@ -4,6 +4,7 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
+import navIcon1 from "../assets/img/nav-icon1.svg";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -63,22 +64,23 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                 
                   <h1>{`Hallo!`}</h1>
                   <h1>
-                    <span
-                      className="txt-rotate"
-                      dataPeriod="1000"
-                    >
+                    <span className="txt-rotate" dataPeriod="1000">
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Having a degree in informatics engineering as my background
+                    has shaped my keen high interest in the field of Technology
+                    Information.
+                  </p>
+                  <br></br>
+                  <p>
+                    Through this portfolio, I’ll show you several projects I’ve
+                    worked on. Hopefully with this portfolio might be gleaned
+                    valuable insights and potential opportunities can be
+                    discussed.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />

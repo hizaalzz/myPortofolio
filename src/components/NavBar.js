@@ -74,17 +74,17 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="linkedin.com/in/hiza-aliza-gaizka">
+                <a a href="https://linkedin.com/in/hiza-aliza-gaizka/" target="_blank" rel="noopener noreferrer">
                   <img src={navIcon1} alt="" />
                 </a>
-                <a href="linkedin.com">
+                <a a href="https://github.com/hizaalzz/" target="_blank" rel="noopener noreferrer">
                   <img src={navIcon2} alt="" />
                 </a>
-                <a href="#">
+                <a a href="https://www.instagram.com/hizaalizag_/" target="_blank" rel="noopener noreferrer">
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
-              <HashLink to="#connect">
+              <HashLink to="https://linkedin.com/in/hiza-aliza-gaizka/">
                 <button className="vvd">
                   <span>Let’s Connect</span>
                 </button>
